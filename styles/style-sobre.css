@@ -1,0 +1,106 @@
+/* Estilização do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #040F16;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex; 
+    justify-content: center; 
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+nav a:hover {
+    color: #43efff;
+    text-shadow: 1px 1px 1px rgba(44, 138, 150, 0.422); 
+}
+
+/* Estilização do título da seção "Sobre Mim" */
+#sobre h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; /* Espaçamento inferior do título */
+}
+
+/* Estilização do texto da seção "Sobre Mim" */
+#sobre p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+}
+
+/* Estilização das habilidades */
+#sobre h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px; /* Espaçamento superior do título */
+}
+
+/* Estilização da lista de habilidades */
+#sobre ul {
+    list-style: disc; /* Estilo de marcador de lista */
+    margin-left: 20px; /* Recuo da lista */
+}
+
+/* Estilização dos projetos pessoais ou interesses */
+#sobre h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px; /* Espaçamento superior do título */
+}
+
+/* Estilização do texto dos projetos pessoais ou interesses */
+#sobre p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+}
+
+/* Estilização do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilização dos elementos no rodapé */
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #43efff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilização dos links no rodapé quando hover (passar o mouse) */
+footer a:hover {
+    text-decoration: underline;
+}

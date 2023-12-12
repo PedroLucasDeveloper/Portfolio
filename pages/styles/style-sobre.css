@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+header {
+    background-color: #040F16;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex; 
+    justify-content: center; 
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+nav a:hover {
+    color: #43efff;
+    text-shadow: 1px 1px 1px rgba(44, 138, 150, 0.422); 
+}
+
+h1,h2,h3,h4,h5,h5{
+    font-weight: 900;
+    color: #000;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+section.module.content{
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module.parallax-1{
+    background-image: url("https://img.freepik.com/fotos-gratis/esfera-azul-brilhante-segurada-por-mao-humana-gerada-por-ia_188544-41033.jpg?w=1060&t=st=1702316230~exp=1702316830~hmac=0706e27a04e7f5e19106ef9b354751cc39343ec37b85d5164a4a6d174213494d");
+}
+
+section.module.parallax-2{
+    background-image: url("https://img.freepik.com/fotos-gratis/feche-de-maos-femininas-caucasianos-durante-o-trabalho-no-escritorio-estudando-vista-superior_155003-5818.jpg?w=996&t=st=1702316678~exp=1702317278~hmac=8f0ab7de44b2159b2408629894cc030c562d7a8cc6db729d54b10c735227e679");
+}
+
+section.module.parallax-3{
+    background-image: url("https://img.freepik.com/fotos-gratis/mao-humana-digitando-no-teclado-do-computador-a-noite-gerada-por-ia_188544-31050.jpg?w=1060&t=st=1702316749~exp=1702317349~hmac=705e095e05e95df75e4ad98420aba9329942683a1e69ec0139d8eba1e4ed916a");
+}
+
+section.module.parallax h1{
+    color: #fff;
+    transition: linear color 2.7s;
+    text-align: center;
+    font-size: 78px;
+    display: block;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.722);
+}
+
+#habilidades {
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px; 
+    line-height: 1.5;
+  }
+  
+  #habilidades .tecnologia-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .tecnologia {
+    width: 30%;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .tecnologia img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .tecnologia p {
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 75px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+
+  .tecnologia:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.022);
+    background: linear-gradient(#1d8aff6d, #053c9493); 
+}
+  
+
+footer {
+    background-color: #040F16;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #43efff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

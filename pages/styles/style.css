@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #040F16; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center;
+}
+
+nav {
+    display: flex; 
+    justify-content: center; 
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+nav a:hover {
+    color: #43efff;
+    text-shadow: 1px 1px 1px rgba(44, 138, 150, 0.422); 
+}
+
+#hero {
+    height: 100vh !important;
+    background-image: url("../imagens/wepik-export-20231211163523bU3F.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#hero::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+#hero h1{
+    color: #fff;
+    transition: color 3.0s;
+    text-align: center;
+    font-size: 78px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.722);
+}
+
+#hero p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 34px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.763);
+}
+
+#hero a{
+    color: #06b8ff;
+    text-align: center;
+    font-weight: 900;
+}
+
+#portfolio {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+#portfolio h2{
+    margin-left: 20px;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.439);
+    text-align: center;
+}
+.project img{
+    display: block;
+    margin: 0 auto;
+}
+
+.project a {
+    display: block;
+    text-decoration: none;
+    background-color: #040F16;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project a:hover {
+    background-color: #0384af;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.563);
+}
+
+footer {
+    background-color: #040F16;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #43efff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
